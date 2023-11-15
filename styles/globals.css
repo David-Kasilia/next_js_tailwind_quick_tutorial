@@ -2,3 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components{
+    .icon-container {
+        @apply bg-neutral-300 p-4 hover:bg-red-600 rounded-2xl hover:rounded-xl transition-all duration-200 ease-in-out cursor-pointer;
+    }
+}
